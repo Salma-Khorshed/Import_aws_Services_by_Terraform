@@ -1,0 +1,49 @@
+variable "api_konecta_cloud" { type = string }
+variable "ch_stack_core_admin_prd" { type = string }
+variable "ch_stack_core_user_prd" { type = string }
+variable "ch_stack_operators_admin" { type = string }
+variable "ch_stack_operators_user" { type = string }
+variable "kcrm_process_api_prd" { type = string }
+
+variable "one_channel_hub_prd_1" { type = string }
+variable "one_channel_hub_prd_2" { type = string }
+variable "one_channel_hub_prd_3" { type = string }
+variable "one_channel_hub_prd_4" { type = string }
+variable "one_channel_hub_prd_5" { type = string }
+variable "one_channel_hub_prd_6" { type = string }
+variable "one_channel_hub_prd_7" { type = string }
+variable "one_channel_hub_prd_8" { type = string }
+variable "one_channel_hub_prd_9" { type = string }
+variable "one_channel_hub_prd_10" { type = string }
+variable "one_channel_hub_prd_11" { type = string }
+variable "one_channel_hub_prd_12" { type = string }
+variable "one_channel_hub_prd_13" { type = string }
+
+variable "one_channel_hub_prod_1" { type = string }
+variable "one_channel_hub_prod_2" { type = string }
+variable "one_channel_hub_prod_3" { type = string }
+variable "one_channel_hub_prod_4" { type = string }
+variable "one_channel_hub_prod_5" { type = string }
+variable "one_channel_hub_prod_6" { type = string }
+variable "one_channel_hub_prod_7" { type = string }
+variable "one_channel_hub_prod_8" { type = string }
+variable "one_channel_hub_prod_9" { type = string }
+variable "one_channel_hub_prod_10" { type = string }
+variable "one_channel_hub_prod_11" { type = string }
+variable "one_channel_hub_prod_12" { type = string }
+variable "one_channel_hub_prod_13" { type = string }
+
+variable "one_channel_hub_provision" { type = string }
+variable "one_channel_hub_site_dev" { type = string }
+variable "one_channel_hub_static_si_1" { type = string }
+variable "one_channel_hub_static_si_2" { type = string }
+variable "one_channel_hub_static_site" { type = string }
+variable "one_channel_hub_static_site_prd" { type = string }
+variable "one_channel_hub_upload_mediafile_prd" { type = string }
+variable "one_channel_ses_email_prd" { type = string }
+variable "one_channelhub_website_dev" { type = string }
+variable "one_channelhub_website_prd" { type = string }
+variable "one_channelhub_website_test" { type = string }
+variable "stackset_cloudtrail" { type = string }
+
+variable "tags" { type = map(string) }
