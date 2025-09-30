@@ -138,32 +138,4 @@ If you encounter drift or changes:
 bash# Refresh state
 terraform refresh -var-file="dev.tfvars"
 
-# Show specific resource
-terraform state show 'module.vpc.aws_vpc.this["vpc-name"]'
 
-# List all resources
-terraform state list
-Security Considerations
-
-Never commit .tfvars files with sensitive data
-Use remote state with encryption for production
-Implement least privilege IAM policies for Terraform execution
-Enable MFA for AWS accounts
-Regular audit of security groups and IAM permissions
-
-Future Improvements
-
- Migrate to remote state (S3 + DynamoDB)
- Add outputs for important resource IDs
- Implement security group rules management
- Add route configurations
- Consider importing critical IAM roles
- Add CloudWatch alarms for monitoring
- Implement proper tagging strategy
-
-Contributing
-
-Create a feature branch
-Make changes
-Test with terraform plan
-Submit pull request with description of changes
